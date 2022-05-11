@@ -27,17 +27,13 @@ db.products.find({$or: [{product_color: "indigo"},{product_price: "492"}]})
 
 // 10.Delete the products which product price value are same
 db.products.aggregate([
-    {
-        $group: {
-                    _id: "$id",
-            noOfDocuments: {$sum: '$product_price'}
+    {$group:{
+            _id: "$product_price",
+             noOfDocuments: {$sum: 1}
         }
-    }, {
-        $match: {
-            noOfDocuments: 36,
-            // noOfDocuments: 47
-        }
-    }
+    }, {$match: {noOfDocuments: 2}}
 ])
-db.products.remove({product_price: 36}, {justOne: true})
-// db.products.remove({product_price: 47}, {justOne: true})
+    db.products.deleteMany({product_price:{$in:[47,36]}});
+    
+    // db.products.remove({product_price: 36}, {justOne: true})
+    // db.products.remove({product_price: 47}, {justOne: true})
