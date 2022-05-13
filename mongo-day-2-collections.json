@@ -1,0 +1,439 @@
+//1
+users:[{
+
+  "id": 1,
+  "name": "aaa",
+  "age": 20,
+  "email": "aaa@gmail.com",
+  "phone": 10001,
+  "batch": "b30we tamil",
+  "courses": "MERN Stack",
+  "noticePeriod": "30 Days",
+  "gitHubUrl": "www.github.com/aaa-developer"
+},
+{
+  "id": 2,
+  "name": "bbb",
+  "age": 22,
+  "email": "bbb@gmail.com",
+  "phone": 10002,
+  "batch": "b31we english",
+  "courses": "MEAN Stack",
+  "noticePeriod": "30 Days",
+  "gitHubUrl": "www.github.com/bbb-developer"
+},
+{
+  "id": 3,
+  "name": "ccc",
+  "age": 24,
+  "email": "ccc@gmail.com",
+  "phone": 10003,
+  "batch": "b32we english",
+  "courses": "MERN Stack",
+  "noticePeriod": "30 Days",
+  "gitHubUrl": "www.github.com/ccc-developer"
+},
+{
+  "id": 4,
+  "name": "ddd",
+  "age": 24,
+  "email": "ddd@gmail.com",
+  "phone": 10004,
+  "batch": "b32we english",
+  "courses": "MERN Stack",
+  "noticePeriod": "30 Days",
+  "gitHubUrl": "www.github.com/ddd-developer"
+},
+{
+  "id": 5,
+  "name": "eee",
+  "age": 22,
+  "email": "eee@gmail.com",
+  "phone": 10005,
+  "batch": "b33we english",
+  "courses": "MEAN Stack",
+  "noticePeriod": "30 Days",
+  "gitHubUrl": "www.github.com/eee-developer"
+}]
+
+----------------------------------------------------------------------------------
+//2 
+
+codekata:
+[{
+  "id": 1,
+  "name": "aaa",
+  "emai": "aaa@gmail.com",
+  "no_of_questions_given": 500,
+  "no_of_questions_solved": 250
+},
+{
+  "id": 2,
+  "name": "bbb",
+  "emai": "bbb@gmail.com",
+  "no_of_questions_given": 500,
+  "no_of_questions_solved": 175
+},
+{
+  "id": 3,
+  "name": "ccc",
+  "emai": "ccc@gmail.com",
+  "no_of_questions_given": 500,
+  "no_of_questions_solved": 200
+},
+{
+  "id": 4,
+  "name": "ddd",
+  "emai": "ddd@gmail.com",
+  "no_of_questions_given": 500,
+  "no_of_questions_solved": 350
+},
+{
+  "id": 5,
+  "name": "eee",
+  "emai": "eee@gmail.com",
+  "no_of_questions_given": 500,
+  "no_of_questions_solved": 105
+}]
+
+---------------------------------------------------------------------------------
+//3 
+
+attendance:
+[{
+  "id": 1,
+  "name": "aaa",
+  "email": "aaa@gmail.com",
+  "batch": "b30we tamil",
+  "attendance": "70%",
+  "absent_days": "14-10-2020"
+},
+{
+  "id": 2,
+  "name": "bbb",
+  "email": "bbb@gmail.com",
+  "batch": "b31we english",
+  "attendance": "80%",
+  "absent_days": "01-10-2020"
+},
+{
+  "id": 3,
+  "name": "ccc",
+  "email": "ccc@gmail.com",
+  "batch": "b32we english",
+  "attendance": "90%",
+  "absent_days": "03-10-2020"
+},
+{
+  "id": 4,
+  "name": "ddd",
+  "email": "ddd@gmail.com",
+  "batch": "b32we english",
+  "attendance": "100%",
+  "absent_days": "22-10-2020"
+},
+{
+  "id": 5,
+  "name": "eee",
+  "email": "eee@gmail.com",
+  "batch": "b33we english",
+  "attendance": "60%",
+  "absent_days": "31-10-2020"
+}]
+-----------------------------------------------------------------------
+//4
+
+topics:
+[{
+  "topicId": 1,
+  "topics": [
+    "HTML",
+    "CSS",
+    "Js-Basics"
+  ],
+  "mentor": "xxx",
+  "language_of_instruction": "tamil",
+  "month": "october"
+},
+{
+  "topicId": 2,
+  "topics": [
+    "HTML",
+    "CSS",
+    "Js-Basics"
+  ],
+  "mentor": "xxy",
+  "language_of_instruction": "english",
+  "month": "november"
+},
+{
+  "topicId": 3,
+  "topics": [
+    "Js-Advanced",
+    "React.Js and Redux"
+  ],
+  "mentor": "xxx",
+  "language_of_instruction": "tamil",
+  "month": "october"
+},
+{
+  "topicId": 4,
+  "topics": [
+    "MySQL",
+    "MongoDB",
+    "Node.Js"
+  ],
+  "mentor": "zzz",
+  "language_of_instruction": "english",
+  "month": "october"
+},
+{
+  "topicId": 5,
+  "topics": [
+    "AWS",
+    "DSA"
+  ],
+  "mentor": "yyy",
+  "language_of_instruction": "tamil",
+  "month": "october"
+}]
+
+----------------------------------------------------------------
+//5
+tasks:
+
+[{
+  "id": 1,
+  "topicId": 1,
+  "taskId": 1,
+  "task_topics": [
+    "Js-Arrays",
+    "Js-Objects",
+    "Js-Functions"
+  ],
+  "date_of_submission": "15-10-2020"
+},
+{
+   "id": 1,
+  "topicId": 2,
+  "taskId": 2,
+  "task_topics": [
+    "design a pan-card form using HTML and CSS"
+  ],
+  "date_of_submission": "01-11-2020"
+},
+{
+  "id": 1,
+  "topicId": 3,
+  "taskId": 3,
+  "task_topics": [
+    "formik-crud"
+  ],
+  "date_of_submission": "22-10-2020"
+},
+{
+  "id": 2,
+  "topicId": 1,
+  "taskId": 1,
+  "task_topics": [
+    "Js-Arrays",
+    "Js-Objects",
+    "Js-Functions"
+  ],
+  "date_of_submission": "15-10-2020"
+},
+{
+  "id": 2,
+  "topicId": 2,
+  "taskId": 2,
+  "task_topics": [
+    "design a pan-card form using HTML and CSS"
+  ],
+  "date_of_submission": "01-11-2020"
+},
+{
+  "id": 3,
+  "topicId": 3,
+  "taskId": 3,
+  "task_topics": [
+    "formik-crud"
+  ],
+  "date_of_submission": "22-10-2020"
+},
+{
+  "id": 3,
+  "topicId": 4,
+  "taskId": 4,
+  "task_topics": [
+    "MySQL, MongoDB-Product queries"
+  ],
+  "date_of_submission": "31-10-2020"
+},
+{
+  "id": 4,
+  "topicId": 4,
+  "taskId": 4,
+  "task_topics": [
+    "MySQL, MongoDB-Product queries"
+  ],
+  "date_of_submission": "31-10-2020"
+},
+{
+  "id": 5,
+  "topicId": 4,
+  "taskId": 4,
+  "task_topics": [
+    "MySQL, MongoDB-Product queries"
+  ],
+  "date_of_submission": "31-10-2020"
+}]
+----------------------------------------------------------------
+//6
+
+company Drives:
+[{
+  "company_id": 1,
+  "company_name": "freshworks",
+  "company_location": "chennai",
+  "experience_in_years": "Fresher",
+  "offering_CTC": "5-6 LPA",
+  "students_appeared_for_placement_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "students_placed_ids": [
+    2,
+    3,
+    5
+  ],
+  "interview_date": "15-10-2020"
+},
+{
+  "company_id": 2,
+  "company_name": "tcs",
+  "company_location": "chennai",
+  "experience_in_years": "Fresher",
+  "offering_CTC": "3-5 LPA",
+  "students_appeared_for_placement_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "students_placed_ids": [
+    2,
+    3
+  ],
+  "interview_date": "18-10-2020"
+},
+{
+  "company_id": 3,
+  "company_name": "infosys",
+  "company_location": "bangalore",
+  "experience_in_years": "Fresher",
+  "offering_CTC": "4-5 LPA",
+  "students_appeared_for_placement_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "students_placed_ids": [
+    1,
+    3
+  ],
+  "interview_date": "20-10-2020"
+},
+{
+  "company_id": 4,
+  "company_name": "cts",
+  "company_location": "chennai",
+  "experience_in_years": "Fresher",
+  "offering_CTC": "5-6 LPA",
+  "students_appeared_for_placement_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "students_placed_ids": [
+    1,
+    5
+  ],
+  "interview_date": "14-10-2020"
+},
+{
+  "company_id": 5,
+  "company_name": "paypal",
+  "company_location": "bangalore",
+  "experience_in_years": "Fresher",
+  "offering_CTC": "6-8 LPA",
+  "students_appeared_for_placement_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "students_placed_ids": [
+    2,
+    5
+  ],
+  "interview_date": "23-10-2020"
+}]
+
+----------------------------------------------------------------------
+//7
+
+mentors:
+[{
+  "mentor_id": 3,
+  "mentor_name": "zzz",
+  "area_of_specialization": "MERN Stack",
+  "years_of_experience": 7,
+  "industry_experience": "full stack developer at amazon e-commerce site",
+  "batch_assigned": [
+    "b32we english",
+    "b33we english"
+  ],
+  "mentees": [
+    10,
+    10
+  ]
+},
+{
+  "mentor_id": 2,
+  "mentor_name": "yyy",
+  "area_of_specialization": "MEAN Stack",
+  "years_of_experience": 6,
+  "industry_experience": "back end stack developer at flipkart e-commerce site",
+  "batch_assigned": [
+    "b30we tamil",
+    "b31we english"
+  ],
+  "mentees": [
+    15,
+    10
+  ]
+},
+{
+  "mentor_id": 1,
+  "mentor_name": "xxx",
+  "area_of_specialization": "MERN Stack",
+  "years_of_experience": 5,
+  "industry_experience": "full stack developer at myntra e-commerce site",
+  "batch_assigned": [
+    "b30we tamil",
+    "b31we english"
+  ],
+  "mentees": [
+    15,
+    15
+  ]
+}]
